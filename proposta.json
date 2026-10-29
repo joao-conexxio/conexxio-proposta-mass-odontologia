@@ -26,17 +26,28 @@
     "tomHero": "escuro",
     "tomCorpo": "claro"
   },
-  "wow": { "assinatura": "esfera" },
   "secoes": [
     {
       "id": "header",
       "variant": "sticky-cta",
       "data": {
         "links": [
-          { "texto": "Tratamentos", "href": "#tratamentos" },
-          { "texto": "Mass Kids", "href": "#mass-kids" },
-          { "texto": "Equipe", "href": "#origem" },
-          { "texto": "Onde fica", "href": "#unidades" }
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Mass Kids",
+            "href": "#mass-kids"
+          },
+          {
+            "texto": "Equipe",
+            "href": "#origem"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
         ]
       }
     },
@@ -50,8 +61,9 @@
         "cta": "Falar com a recepção",
         "ctaSecundario": "Ver tratamentos",
         "ctaSecundarioHref": "#tratamentos",
-        "selo": "Nota 5,0 · +600 avaliações no Google",
-        "cardTitulo": "Agende pelo WhatsApp ou ligue"
+        "cardTitulo": "Agende sua avaliação",
+        "imagem": "midia/fachada-retrato.jpg",
+        "imagemAlt": "Fachada do Instituto Mass Odontologia, com o letreiro e as araucárias em frente"
       }
     },
     {
@@ -75,10 +87,22 @@
       "data": {
         "titulo": "O Mass em números",
         "itens": [
-          { "valor": "+20", "rotulo": "anos de atendimento completo" },
-          { "valor": "+15", "rotulo": "profissionais entre dentistas e técnicos em higiene dental" },
-          { "valor": "5,0", "rotulo": "de nota no Google" },
-          { "valor": "+600", "rotulo": "avaliações de pacientes" }
+          {
+            "valor": "+20",
+            "rotulo": "anos de atendimento completo"
+          },
+          {
+            "valor": "+15",
+            "rotulo": "profissionais entre dentistas e técnicos em higiene dental"
+          },
+          {
+            "valor": "5,0",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "+600",
+            "rotulo": "avaliações de pacientes"
+          }
         ]
       }
     },
@@ -141,20 +165,14 @@
       }
     },
     {
-      "id": "tecnologias",
-      "variant": "grade",
-      "data": {
-        "titulo": "Exames dentro do prédio",
-        "itens": [
-          { "nome": "Tomografia 3D", "detalhe": "Planejamento de implantes e cirurgias", "icone": "microscopio" },
-          { "nome": "Radiografia digital", "detalhe": "Imagem no mesmo dia da consulta", "icone": "dente" },
-          { "nome": "Ultrassonografia", "detalhe": "Alta precisão", "icone": "ultrassom" },
-          { "nome": "Escaneamento intraoral 3D", "detalhe": "Sem moldagem", "icone": "laser" }
-        ]
-      }
+      "custom": "blocos/exames.html"
     },
-    { "custom": "blocos/origem.html" },
-    { "custom": "blocos/kids.html" },
+    {
+      "custom": "blocos/origem.html"
+    },
+    {
+      "custom": "blocos/kids.html"
+    },
     {
       "id": "passos",
       "variant": "timeline",
@@ -191,21 +209,32 @@
         "titulo": "A casa por dentro e por fora",
         "lead": "Fachada no Batel, consultório com a tomografia na tela e a brinquedoteca do Mass Kids.",
         "itens": [
-          { "imagem": "midia/fachada.jpg", "legenda": "Fachada no Batel" },
-          { "imagem": "midia/consultorio.jpg", "legenda": "Consultório" },
-          { "imagem": "midia/brinquedoteca.jpg", "legenda": "Mass Kids" }
+          {
+            "imagem": "midia/fachada.jpg",
+            "legenda": "Fachada no Batel"
+          },
+          {
+            "imagem": "midia/consultorio.jpg",
+            "legenda": "Consultório"
+          },
+          {
+            "imagem": "midia/brinquedoteca.jpg",
+            "legenda": "Mass Kids"
+          }
         ]
       }
     },
     {
       "id": "depoimentos",
-      "variant": "citacoes",
+      "variant": "destaque",
       "data": {
         "titulo": "O que pacientes dizem",
         "itens": [
-          { "texto": "Resolveu meu problema de ATM.", "autor": "Helenara A.", "contexto": "Paciente de DTM" },
-          { "texto": "Nunca imaginei que minha filha de 8 anos iria gostar tanto de ir ao dentista.", "autor": "Robson R.", "contexto": "Pai de paciente do Mass Kids" },
-          { "texto": "Não precisa ficar indo em outros lugares para fazer tomografias ou qualquer outro exame.", "autor": "Tatiana W.", "contexto": "Paciente que mora no exterior" }
+          {
+            "texto": "Fez toda a diferença no tratamento da DTM de minha filha.",
+            "autor": "Regina H.",
+            "contexto": "Mãe de paciente de DTM"
+          }
         ]
       }
     },

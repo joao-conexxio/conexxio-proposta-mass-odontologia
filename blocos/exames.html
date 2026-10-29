@@ -1,0 +1,40 @@
+<section class="blk-exames" id="exames">
+  <div class="wrap blk-exames__in">
+    <figure class="blk-exames__foto" data-reveal>
+      <!--foto:midia/consultorio.jpg|Consultório do Instituto Mass com a cadeira, a planta e a tela mostrando uma tomografia-->
+      <figcaption>A tela do consultório mostra o exame ao paciente, na hora.</figcaption>
+    </figure>
+    <div class="blk-exames__txt">
+      <p class="blk-exames__eyebrow" data-reveal>Exames dentro do prédio</p>
+      <h2 class="blk-exames__titulo" data-reveal>Pedido de tomografia sem endereço de outra clínica</h2>
+      <p class="blk-exames__lead" data-acende>Quem vem de outra cidade, ou de outro país, resolve avaliação e exame na mesma visita. As imagens saem no Instituto e o plano de tratamento é montado em cima delas.</p>
+      <ul class="blk-exames__lista">
+        <li data-reveal style="--d:0ms"><span class="blk-exames__ico"><!--icone:microscopio--></span><div><strong>Tomografia 3D</strong><p>Planejamento de implantes e cirurgias.</p></div></li>
+        <li data-reveal style="--d:80ms"><span class="blk-exames__ico"><!--icone:dente--></span><div><strong>Radiografia digital</strong><p>Imagem na mesma consulta.</p></div></li>
+        <li data-reveal style="--d:160ms"><span class="blk-exames__ico"><!--icone:ultrassom--></span><div><strong>Ultrassonografia</strong><p>De alta precisão.</p></div></li>
+        <li data-reveal style="--d:240ms"><span class="blk-exames__ico"><!--icone:laser--></span><div><strong>Escaneamento intraoral 3D</strong><p>Sem moldagem.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-exames{padding-block:var(--sp-section);background:var(--brand);color:var(--on-dark)}
+.blk-exames__in{display:grid;gap:var(--sp-5)}
+.blk-exames__foto{margin:0}
+.blk-exames__foto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r-lg)}
+.blk-exames__foto figcaption{margin-top:var(--sp-2);font-size:var(--t-sm);color:color-mix(in srgb,var(--on-dark) 70%,transparent)}
+.blk-exames__eyebrow{margin:0;font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-exames__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--on-dark)}
+.blk-exames__lead{margin:var(--sp-3) 0 0;max-width:36rem;font-size:1.1rem;line-height:1.65;color:var(--on-dark)}
+.blk-exames__lista{list-style:none;margin:var(--sp-4) 0 0;padding:0;display:grid;gap:var(--sp-3);grid-template-columns:1fr}
+.blk-exames__lista li{display:grid;grid-template-columns:2.4rem 1fr;gap:var(--sp-3);align-items:start;padding-top:var(--sp-3);border-top:1px solid color-mix(in srgb,var(--on-dark) 22%,transparent)}
+.blk-exames__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--pulse)}
+.blk-exames__ico svg{width:100%;height:100%}
+.blk-exames__lista strong{display:block;font-family:var(--f-display);font-size:1.2rem;font-weight:600}
+.blk-exames__lista p{margin:.25rem 0 0;line-height:1.5;color:color-mix(in srgb,var(--on-dark) 78%,transparent)}
+@media (min-width:64rem){
+  .blk-exames__in{grid-template-columns:6fr 5fr;gap:var(--sp-6,6rem);align-items:center}
+  .blk-exames__foto img{aspect-ratio:1/1}
+}
+</style>
