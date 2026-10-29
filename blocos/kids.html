@@ -1,0 +1,39 @@
+<section class="blk-kids" id="mass-kids">
+  <div class="wrap blk-kids__in">
+    <div class="blk-kids__cab">
+      <p class="blk-kids__eyebrow" data-reveal>Mass Kids</p>
+      <h2 class="blk-kids__titulo" data-reveal>Criança tem sala de espera e consultório só dela</h2>
+      <p class="blk-kids__lead" data-acende>Brinquedoteca na espera, sala colorida com televisão no teto e uma odontopediatra para conduzir. A primeira consulta é indicada assim que nasce o primeiro dente de leite.</p>
+    </div>
+    <figure class="blk-kids__foto" data-reveal>
+      <!--foto:midia/brinquedoteca.jpg|Brinquedoteca do Mass Kids, com árvore decorativa, janela e puffs coloridos-->
+      <figcaption>A brinquedoteca do Mass Kids, na sala de espera</figcaption>
+    </figure>
+    <ol class="blk-kids__passos" data-pilha>
+      <li><span class="blk-kids__ico"><!--icone:bebe--></span><strong>Condicionamento</strong><p>A criança conhece o ambiente e os instrumentos aos poucos, antes de qualquer procedimento.</p></li>
+      <li><span class="blk-kids__ico"><!--icone:pulmao--></span><strong>Óxido nitroso, o "cheirinho"</strong><p>Sedação consciente, monitorada pela especialista e sem efeito residual ao fim da consulta.</p></li>
+      <li><span class="blk-kids__ico"><!--icone:estetoscopio--></span><strong>Hospital, se precisar</strong><p>Quando a criança não consegue colaborar no consultório, o tratamento pode ser feito sob anestesia geral, com a equipe no hospital.</p></li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-kids{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 10%,var(--bg))}
+.blk-kids__in{display:grid;gap:var(--sp-5)}
+.blk-kids__eyebrow{margin:0;font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand-2)}
+.blk-kids__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-kids__lead{margin:var(--sp-3) 0 0;max-width:36rem;font-size:1.1rem;line-height:1.65;color:var(--ink)}
+.blk-kids__foto{margin:0}
+.blk-kids__foto img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:var(--r-lg)}
+.blk-kids__foto figcaption{margin-top:var(--sp-2);font-size:var(--t-sm);color:var(--ink-dim)}
+.blk-kids__passos{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-kids__passos li{padding:var(--sp-4);background:var(--bg);border:1px solid var(--line);border-radius:var(--r-lg)}
+.blk-kids__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--brand)}
+.blk-kids__ico svg{width:100%;height:100%}
+.blk-kids__passos strong{display:block;margin-top:var(--sp-3);font-family:var(--f-display);font-size:1.3rem;font-weight:600;color:var(--ink)}
+.blk-kids__passos p{margin:var(--sp-2) 0 0;line-height:1.6;color:var(--ink-soft)}
+@media (min-width:64rem){
+  .blk-kids__in{grid-template-columns:6fr 5fr;gap:var(--sp-5) var(--sp-6,6rem);align-items:center}
+  .blk-kids__passos{grid-column:1 / -1;grid-template-columns:repeat(3,1fr)}
+}
+</style>

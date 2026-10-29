@@ -1,0 +1,268 @@
+{
+  "slug": "mass-odontologia",
+  "negocio": {
+    "nome": "Instituto Mass Odontologia",
+    "logo": "brand/logo.png",
+    "whatsapp": "5541999542079",
+    "unidades": [
+      {
+        "bairro": "Batel · Curitiba",
+        "endereco": "Av. Vicente Machado, 2079 – Batel, Curitiba – PR, 80420-010",
+        "telefone": "(41) 3013-3025",
+        "horario": "Segunda a sexta, das 9h às 19h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#152252",
+    "brand2": "#0E1A45",
+    "ink": "#18244D",
+    "bg": "#F6F6F6",
+    "pulse": "#5EBFB5",
+    "radius": "20px",
+    "registro": "editorial",
+    "fontDisplay": "Quicksand",
+    "fontBody": "Quicksand",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "wow": { "assinatura": "esfera" },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Mass Kids", "href": "#mass-kids" },
+          { "texto": "Equipe", "href": "#origem" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Batel · Curitiba",
+        "h1": "Sorriso e mordida, juntos",
+        "lead": "Ortodontia, DTM, implantes, estética e Mass Kids, com tomografia 3D no próprio prédio.",
+        "cta": "Falar com a recepção",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "selo": "Nota 5,0 · +600 avaliações no Google",
+        "cardTitulo": "Agende pelo WhatsApp ou ligue"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "DTM e bruxismo",
+          "Ortodontia",
+          "Alinhadores transparentes",
+          "Implantes",
+          "Lentes de contato dental",
+          "Ronco e apneia",
+          "Cirurgias",
+          "Mass Kids"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O Mass em números",
+        "itens": [
+          { "valor": "+20", "rotulo": "anos de atendimento completo" },
+          { "valor": "+15", "rotulo": "profissionais entre dentistas e técnicos em higiene dental" },
+          { "valor": "5,0", "rotulo": "de nota no Google" },
+          { "valor": "+600", "rotulo": "avaliações de pacientes" }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "faixa",
+      "data": {
+        "eyebrow": "O jeito Mass",
+        "citacao": "Consultório que não lembra hospital.",
+        "autor": "Instituto Mass Odontologia",
+        "texto": [
+          "A casa foi desenhada para desfazer a imagem fria da clínica convencional: recepção acolhedora, salas claras, televisão no teto sobre a cadeira e estacionamento próprio na porta.",
+          "Atrás disso há um método. O caso passa por mais de um especialista antes de virar plano, e o paciente sai sabendo o que será feito, em que ordem e por quê."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Do paciente com dor de cabeça à criança que perdeu o primeiro dente de leite: uma equipe, vários especialistas.",
+        "itens": [
+          {
+            "nome": "DTM, bruxismo e dores orofaciais",
+            "descricao": "Estalo na mandíbula, dor de cabeça que não passa, zumbido, dor no ouvido: muitas vezes a origem é a articulação. O tratamento começa por entender o que está sobrecarregando a mordida.",
+            "icone": "osso"
+          },
+          {
+            "nome": "Ortodontia e ortopedia facial",
+            "descricao": "Aparelhos fixos, transparentes, linguais e alinhadores como o Invisalign, para crianças e adultos. O aparelho é escolhido pelo caso, não pelo catálogo.",
+            "icone": "dente"
+          },
+          {
+            "nome": "Implantes dentários",
+            "descricao": "Para recuperar mastigação, fala e sorriso. Com carga imediata, a prótese pode ser instalada em poucos dias, sempre depois do planejamento por tomografia.",
+            "icone": "dente"
+          },
+          {
+            "nome": "Estética do sorriso",
+            "descricao": "Facetas, lentes de contato dental e clareamento. Antes de qualquer desgaste, o teste do sorriso mostra no seu próprio rosto o que o plano propõe.",
+            "icone": "estrela"
+          },
+          {
+            "nome": "Ronco e apneia do sono",
+            "descricao": "Aparelho intraoral feito sob medida para manter a via aérea aberta durante a noite. O diagnóstico usa polissonografia e tomografia.",
+            "icone": "pulmao"
+          },
+          {
+            "nome": "Cirurgias dentais e faciais",
+            "descricao": "Siso, plástica gengival, bichectomia e cirurgia ortognática. Para as mais longas, há sedação endovenosa com equipe de anestesistas.",
+            "icone": "estetoscopio"
+          },
+          {
+            "nome": "Clínica geral e canal",
+            "descricao": "Limpeza, prevenção e retornos periódicos. Tratamento de canal mecanizado e em uma sessão.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tecnologias",
+      "variant": "grade",
+      "data": {
+        "titulo": "Exames dentro do prédio",
+        "itens": [
+          { "nome": "Tomografia 3D", "detalhe": "Planejamento de implantes e cirurgias", "icone": "microscopio" },
+          { "nome": "Radiografia digital", "detalhe": "Imagem no mesmo dia da consulta", "icone": "dente" },
+          { "nome": "Ultrassonografia", "detalhe": "Alta precisão", "icone": "ultrassom" },
+          { "nome": "Escaneamento intraoral 3D", "detalhe": "Sem moldagem", "icone": "laser" }
+        ]
+      }
+    },
+    { "custom": "blocos/origem.html" },
+    { "custom": "blocos/kids.html" },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Da primeira mensagem ao retorno",
+        "itens": [
+          {
+            "titulo": "Chame no WhatsApp",
+            "texto": "Conte o que incomoda: dor, aparelho, implante, criança. A recepção encaminha para o profissional certo.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação e exames",
+            "texto": "Tomografia, radiografia e escaneamento no mesmo prédio, sem sair com pedido na mão para outro endereço.",
+            "icone": "ultrassom"
+          },
+          {
+            "titulo": "Plano multidisciplinar",
+            "texto": "Mais de um especialista olha o caso, e o plano chega explicado: etapas, ordem e prazo.",
+            "icone": "estetoscopio"
+          },
+          {
+            "titulo": "Tratamento e retorno marcado",
+            "texto": "Cada fase termina com a data da próxima. A clínica geral costuma voltar a cada 6 a 9 meses, e o ortodontista e a odontopediatra definem o ritmo do caso.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "mosaico",
+      "data": {
+        "titulo": "A casa por dentro e por fora",
+        "lead": "Fachada no Batel, consultório com a tomografia na tela e a brinquedoteca do Mass Kids.",
+        "itens": [
+          { "imagem": "midia/fachada.jpg", "legenda": "Fachada no Batel" },
+          { "imagem": "midia/consultorio.jpg", "legenda": "Consultório" },
+          { "imagem": "midia/brinquedoteca.jpg", "legenda": "Mass Kids" }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que pacientes dizem",
+        "itens": [
+          { "texto": "Resolveu meu problema de ATM.", "autor": "Helenara A.", "contexto": "Paciente de DTM" },
+          { "texto": "Nunca imaginei que minha filha de 8 anos iria gostar tanto de ir ao dentista.", "autor": "Robson R.", "contexto": "Pai de paciente do Mass Kids" },
+          { "texto": "Não precisa ficar indo em outros lugares para fazer tomografias ou qualquer outro exame.", "autor": "Tatiana W.", "contexto": "Paciente que mora no exterior" }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes de marcar",
+        "itens": [
+          {
+            "p": "Dor de cabeça e de ouvido podem vir da mandíbula?",
+            "r": "Podem. Na DTM, a articulação sobrecarregada dá dor de cabeça, estalos, zumbido e dor no ouvido. A avaliação mostra se é o caso."
+          },
+          {
+            "p": "Preciso fazer os exames em outro lugar?",
+            "r": "Não. Tomografia 3D, radiografia digital, ultrassonografia e escaneamento intraoral são feitos no próprio Instituto."
+          },
+          {
+            "p": "Com que idade a criança deve vir?",
+            "r": "A primeira consulta é indicada assim que nasce o primeiro dente de leite. Há também pré-natal odontológico para gestantes."
+          },
+          {
+            "p": "E se a criança não consegue ficar na cadeira?",
+            "r": "Há condicionamento gradual, sedação com óxido nitroso e, quando necessário, tratamento sob anestesia geral em hospital, com a equipe do Mass."
+          },
+          {
+            "p": "Tem estacionamento?",
+            "r": "Sim, o Instituto tem estacionamento próprio."
+          },
+          {
+            "p": "Qual o horário de atendimento?",
+            "r": "De segunda a sexta, das 9h às 19h. Fora desse horário, deixe sua mensagem no WhatsApp."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No Batel, perto do Shopping Mueller",
+        "imagem": "midia/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Conte o que incomoda e marque sua avaliação",
+        "lead": "Mande uma mensagem com o motivo da consulta. A recepção indica o profissional e o horário.",
+        "cta": "Falar com a recepção"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}

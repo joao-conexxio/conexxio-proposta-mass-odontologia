@@ -1,0 +1,37 @@
+<section class="blk-origem" id="origem">
+  <div class="wrap blk-origem__in">
+    <figure class="blk-origem__foto" data-reveal>
+      <!--foto:midia/placa.jpg|Letreiro cinza do Instituto Mass Odontologia na fachada de vidro, com as árvores refletidas-->
+    </figure>
+    <div class="blk-origem__txt">
+      <p class="blk-origem__eyebrow" data-reveal>De onde vem o nome</p>
+      <h2 class="blk-origem__titulo" data-reveal>MASS é um nome de família</h2>
+      <p class="blk-origem__lead" data-acende>O nome do instituto homenageia a Dra. Anna Massena, cirurgiã-dentista do início do século XX e amiga da família do diretor clínico. A casa diz que a ideia de um atendimento completo, sob o mesmo teto, foi se firmando ao longo de mais de 20 anos.</p>
+      <ul class="blk-origem__lista">
+        <li data-reveal style="--d:0ms"><span class="blk-origem__ico"><!--icone:dente--></span><div><strong>Ortodontia e ortopedia facial</strong><p>Dr. Leandro Teixeira de Souza, diretor clínico, CRO/PR 18408.</p></div></li>
+        <li data-reveal style="--d:90ms"><span class="blk-origem__ico"><!--icone:bebe--></span><div><strong>Odontopediatria</strong><p>Dra. Tayla Cavallari de Souza, CRO/PR 21481, que também cuida do pós-tratamento.</p></div></li>
+        <li data-reveal style="--d:180ms"><span class="blk-origem__ico"><!--icone:estetoscopio--></span><div><strong>Mais de 15 profissionais</strong><p>Entre cirurgiões-dentistas e técnicos em higiene dental, de todas as áreas.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-origem{padding-block:var(--sp-section);background:var(--bg)}
+.blk-origem__in{display:grid;gap:var(--sp-5)}
+.blk-origem__foto{margin:0;overflow:hidden;border-radius:var(--r-lg)}
+.blk-origem__foto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.blk-origem__eyebrow{margin:0;font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand-2)}
+.blk-origem__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-origem__lead{margin:var(--sp-3) 0 0;max-width:38rem;font-size:1.1rem;line-height:1.65;color:var(--ink)}
+.blk-origem__lista{list-style:none;margin:var(--sp-4) 0 0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-origem__lista li{display:grid;grid-template-columns:2.4rem 1fr;gap:var(--sp-3);align-items:start;padding-top:var(--sp-3);border-top:1px solid var(--line)}
+.blk-origem__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--brand)}
+.blk-origem__ico svg{width:100%;height:100%}
+.blk-origem__lista strong{display:block;font-family:var(--f-display);font-size:1.2rem;font-weight:600;color:var(--ink)}
+.blk-origem__lista p{margin:.25rem 0 0;line-height:1.55;color:var(--ink-soft)}
+@media (min-width:64rem){
+  .blk-origem__in{grid-template-columns:5fr 6fr;gap:var(--sp-6,6rem);align-items:center}
+  .blk-origem__foto img{aspect-ratio:4/5}
+}
+</style>
